@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.18'
+gem 'rails', '3.2.19'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,7 +28,7 @@ gem 'mysql2', '0.3.11'
    #:git     => 'git://github.com/freelancing-god/thinking-sphinx.git',
 #   #:branch  => 'rails3',
    #:require => 'thinking_sphinx'
- gem 'thinking-sphinx', '2.0.13'
+ gem 'thinking-sphinx', '2.0.14'
 
  #Zendesk API
  gem "zendesk_api"
@@ -40,7 +40,7 @@ gem 'mysql2', '0.3.11'
  gem 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git', :branch => 'v3.2'
 
  #gem 'will_paginate'#, '3'
- gem 'will_paginate', '3.0.3'
+ gem 'will_paginate', '3.0.7'
 
  #gem "friendly_id", "~> 4.0.0"
  gem 'friendly_id', "4.0.10.1"
@@ -62,10 +62,10 @@ gem 'mysql2', '0.3.11'
  # gem 'engineyard', '1.4.29'
  
  #gem "daemons"#, "<= 1.0.10"
- gem 'daemons', '1.1.8'
+ gem 'daemons', '1.1.9'
 
  #gem 'acts_as_list'
- gem 'acts_as_list', '0.1.6'
+ gem 'acts_as_list', '0.4.0'
 
  #gem 'inherited_resources'
  gem 'inherited_resources', '1.3.1'
@@ -74,7 +74,7 @@ gem 'mysql2', '0.3.11'
  #gem 'simple-navigation'
  gem 'simple-navigation', '3.7.0'
 
- gem 'cancan', '1.6.7'
+ gem 'cancan', '1.6.10'
 
  #gem 'haml'
  gem 'haml', '3.1.6'
@@ -108,9 +108,9 @@ gem 'sitemap_generator', '3.1.1'
 # User Agent parser gem / Remove from vendor included as gem
 gem 'useragent', '~> 0.10.0'
 
-# #Cron tab 
- #gem 'whenever', :require => false
- gem 'whenever', '0.7.3', :require => false
+# Cron tab - Non utilisé
+#gem 'whenever', :require => false
+# gem 'whenever', '0.7.3', :require => false
 
 #group :staging, :production do
   #gem 'execjs'
@@ -121,8 +121,8 @@ gem 'useragent', '~> 0.10.0'
 	#gem 'therubyracer', '0.10.1'
 #end
 
-  # Retours de Mandrill
-  gem 'mandrill-rails'
+# Retours de Mandrill
+gem 'mandrill-rails'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -133,7 +133,7 @@ gem 'useragent', '~> 0.10.0'
 # gem 'mocha', '0.12.0', :group => :test
 
 # Gestion des mails responsive
-gem 'roadie'
+gem 'roadie', '2.4.3'
 # gem 'premailer-rails'
 # gem 'nokogiri'
 # gem 'hpricot'
